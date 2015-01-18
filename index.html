@@ -1,24 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8"/>
-	
+	<meta charset="UTF-8"/>	
 	<title>Puls4: Comunidad de Diseño Web</title>
-
 	<link rel="stylesheet" href="css/puls4.css"/>
-	
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 
 
 </head>
 <body>
 	<header>
-		
+		<div class="logo">
+			<img src="logo.png" alt="Pusl4"/>
+		</div>
+		<div class="titulo">
+			<h1 class="titulo-h1">Comunidad de la Web</h1>
+			<div>
+				<a href="#" class="filtro">Diseño</a>
+				<a href="#" class="publicar">Publicar</a>
+			</div>
+		</div>
+		<div class="usuario">
+			<figure class="avatar">
+				<img src="avatar.jpg" alt="lucho">
+			</figure>
+			<a href="#" class="estrellita">a</a>
+		</div>
 	</header>
 	<nav>
-		
+		<ul class="menu">
+			<li><a href="#">Python</a></li>
+			<li><a href="#">HTML5</a></li>
+			<li><a href="#">Javascript</a></li>
+			<li><a href="#">CSS3</a></li>
+			<li><a href="#">Django</a></li>
+			<li id="publicar_nav" >
+			<a href="#" class="icon-lapiz">Publicar</a>
+			</li>
+
+		</ul>
 	</nav>
-	<section>
-		
+	<section class="posts">
+		<article class="post">
+			<div class="descripcion">
+				<figure class="imagenes">
+					<img src="foto.jpg" alt="fotito">
+				</figure>
+				<div class="detalles">
+					<h2 class="titulo">						
+					</h2>
+					<p class="autor">
+						por <a href="#">Luis Henrnadez</a>
+					</p>
+					<a href="#" class="tag"></a>
+					<p class="fecha">hace <strong>20</strong> min </p>
+				</div>
+			</div>
+			<div class="acciones">
+				<div class="votos">
+					<a href="#" class="up"></a>
+					<span class="total">454</span>
+					<a href="#" class="down"></a>
+				</div>
+				<div class="datos">
+					<a href="#" class="comentarios">10</a>
+					<a href="#" class="estrellita">*</a>
+				</div>
+			</div>
+		</article>
 	</section>
 	<footer>
 		<h3>
