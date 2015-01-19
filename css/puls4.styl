@@ -1,4 +1,5 @@
 gris_Oscuro = #444 
+azul = #22bce0
 body
 	background #D2D3CB
 	color gris_Oscuro
@@ -9,6 +10,90 @@ header
 	background	gris_Oscuro
 	color white
 	padding 0.5em
+	position relative
+	overflow hidden
 	
+	.logo
+		border-right 1px solid azul
+		width 50px
+		float left
+		padding 0 1em 0 0
+		img
+			width 50px
 	
+	.titular
+		margin 0 60px 0 70px
+		.filtro
+			color #34DEE7
+			text-decoration: none
+			font-family Comic Sans, serif
+			font-weight bold
+			
+		.publicar
+			background #FF8000
+			border-radius 5%
+			color white
+			font-family Comic Sans, cursive
+			float right
+			padding 0.2em 0.5em
+			text-decoration none			
+			margin -0.5px 2em 0 0
+			text-shadow 2px 2px 0px black
+			
+		.titulo
+			font-size 18px
+			font-weight normal
+			margin 0
+			padding 0
+			
 	
+	.usuario
+		position absolute
+		right 10px
+		top 10px		
+		.avatar		
+			margin 0 1em 0 1em
+			z-index 2			
+			position relative
+			img
+				width 50px	
+				border-radius 50%
+								
+		.estrellita
+			background #FF8040
+			color white	
+			display block
+			padding 3px
+			position absolute
+			right 0
+			text-align right
+			top 15px
+			width 50%
+			
+.left 
+	float left
+
+.right 
+	float right	 
+
+nav
+	background #3AB6DE
+	.menu
+		margin 0
+		padding 0
+		height 40px
+		line-height 40px
+		overflow-x auto
+		white-space nowrap 
+		li
+			display inline-block
+			padding 0.4em
+			
+			a
+				display block
+				display inline-block
+				text-decoration none
+				color white
+			
+
+
